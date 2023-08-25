@@ -69,7 +69,7 @@ export const projects = [
     {
         id:2,
         image:ecommerce,
-        // link:"https://github.com/sushantshah123/Ecommerce-React-Strapi",
+        links:"https://github.com/sushantshah123/Ecommerce-React-Strapi",
         title:"Ecommerce App",
         description:"Contrary to popular belief, Lorem Ipsum is not simply random text.",
     },
@@ -89,6 +89,7 @@ export const projects = [
         id:5,
         image:portfolio,
         title:"Modern Portfolio",
+        links:"https://github.com/sushantshah123/React-Modern-Portfolio",
         description:"Contrary to popular belief, Lorem Ipsum is not simply random text.",
     },
     {
@@ -96,5 +97,69 @@ export const projects = [
         image:food,
         title:"Food Delivery App",
         description:"Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    },
+]
+
+
+export const skills = [
+    {
+        id:1,
+        title:"HTML",
+        percentage:"80%",
+        bar:"w-[80%]"
+    },
+    {
+        id:2,
+        title:"CSS",
+        percentage:"70%",
+        bar:"w-[70%]"
+    },
+    {
+        id:3,
+        title:"JavaScript",
+        percentage:"60%",
+        bar:"w-[60%]"
+    },
+    {
+        id:4,
+        title:"Bootstrap",
+        percentage:"70%",
+        bar:"w-[70%]"
+    },
+    {
+        id:5,
+        title:"Tailwind CSS",
+        percentage:"80%",
+        bar:"w-[80%]"
+    },
+    {
+        id:6,
+        title:"MUI",
+        percentage:"70%",
+        bar:"w-[70%]"
+    },
+    {
+        id:7,
+        title:"React",
+        percentage:"60%",
+        bar:"w-[60%]"
+    },
+    {
+        id:8,
+        title:"Node/Express",
+        percentage:"60%",
+        bar:"w-[60%]"
+    },
+    {
+        id:8,
+        title:"PHP",
+        percentage:"50%",
+        bar:"w-[50%]"
+    },
+    {
+        id:9,
+        title:"Wordpress",
+        percentage:"70%",
+        bar:"w-[60%]"
     },
 ]

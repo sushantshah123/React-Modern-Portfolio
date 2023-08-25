@@ -14,3 +14,24 @@
 body {
   margin: 0;
 }
+
+
+/* THEME MODE  */
+#dark{
+  background-color: black;
+  color: white;
+}
+
+#light{
+  background-color: rgb(127, 125, 125);
+  color: rgb(44, 39, 39);
+}
+/* THEME MODE  */
+
+
+
+.line, .circle-bg, .card-bg{
+  background-color: rgb(24, 22, 22);
+}
+
+

@@ -18,7 +18,7 @@ const Navbar = () => {
               {
                 data.map((items)=>{
                   return(
-            <li key={items.id} className='ml-4 text-gray-400 text-sm transition-all ease-in-out cursor-pointer hover:text-red-600 duration-500'>
+            <li key={items.id} className='ml-6 text-gray-400 text-sm transition-all ease-in-out cursor-pointer hover:text-red-600 duration-500'>
             <Link 
             activeClass='active' to={items.link} spy={true} smooth={true} offset={-70} duration={500} >
             {items.title}
@@ -30,16 +30,17 @@ const Navbar = () => {
         </ul>
 
         <div className='md:hidden'>
-          {!toggle?
+          {
+          !toggle?
             <svg xmlns="http://www.w3.org/2000/svg"
             onClick={()=>setToggle(true)}
-             fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+             fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
 </svg>
 :
 <svg xmlns="http://www.w3.org/2000/svg"
 onClick={()=>setToggle(false)}
- fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+ fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 </svg>
 

@@ -3,7 +3,7 @@ import { features } from '../constants/Data'
 
 const Features = () => {
   return (
-    <div className='px-8 py-20 w-full h-auto' id='features'>
+    <div className='px-8 py-16 w-full h-auto' id='features'>
     <h1 className='text-red-600 text-4xl mb-4'>What I Do?</h1>
     <div className='flex flex-col gap-2  md:flex-row flex-wrap justify-around md:gap-4'>
       {

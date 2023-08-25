@@ -5,17 +5,17 @@ import { BsGithub } from 'react-icons/bs'
 
 const Projects = () => {
   return (
-    <div className='px-8 py-20 w-full h-auto' id='projects'>
+    <div className='px-8 py-16 w-full h-auto' id='projects'>
     <h1 className='text-red-600 text-4xl mb-4'>My Collections.</h1>
     <div className='w-full flex flex-col gap-2 md:flex-row md:flex-wrap justify-around md:gap-4'>
       {
         projects.map((project)=>{
           return(
-            <div key={project.id} className='h-2/5 w-full md:w-[30vw] bg-black flex flex-col gap-2 md:gap-3 p-6 border-2'>
-             <div className='h-1/2 w-full overflow-hidden'>
+            <div key={project.id} className='h-2/5 w-full md:w-[30vw] bg-black flex flex-col gap-2 md:gap-3 p-6 border-2 border-gray-900'>
+             <div className='h-[150px] md:h-[200px] w-full overflow-hidden'>
               <img src={project.image} alt="" className='h-full w-full'/>
              </div>
-             {/* <Link to={project.link}> */}
+             {/* <Link to={project.links}> */}
               <h2><BsGithub size={20} className='hover:text-red-400 duration-300 cursor-pointer'/></h2>
              {/* </Link> */}
               <h1 className='text-xl'>{project.title}</h1>
