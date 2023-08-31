@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
     return (
     <>
-    <div className='flex justify-between items-center px-4 bg-black z-50 h-[70px] border-b-[1px] border-b-gray-600 sticky top-0'>
+    <div className='flex justify-between items-center px-4 bg-black z-50 h-[70px] border-b-[1px] border-b-gray-800 sticky top-0'>
        <div className='group cursor-pointer border-[3px] h-[50px] w-[50px] border-gray-400 flex justify-center items-center rounded-full overflow-hidden'>
           <img src={profile} alt="" className=''/>
           <h1 className='hidden group-hover:block absolute top-[70px] left-8 bg-gray-600 text-gray-400 py-2 px-4'>Sushant Shah</h1>
@@ -58,6 +58,7 @@ onClick={()=>setToggle(false)}
             </Link>
             </li>
                   )
+                  
                 })
               }
         </ul>

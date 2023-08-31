@@ -14,11 +14,11 @@ const Banner = () => {
     ) 
   }
   return (
-    <div className='h-auto px-8 py-16 w-full flex flex-col gap-4 md:flex-row' id='home'>
+    <div className='h-auto px-8 py-16 w-full flex flex-col-reverse gap-4 md:flex-row' id='home'>
     {/* LEFT PART  */}
     <div className='w-full md:w-1/2'>
     {/* TOP  */}
-    <div className='gap-2 flex flex-col md:gap-4'>
+    <div className='gap-1 flex flex-col md:gap-4'>
         <h5 className='text-gray-400 text-sm md:text-lg font-bold tracking-wider'>WELCOME TO MY WORLD</h5>
         <h1 className='text-xl md:text-5xl font-semi-bold'>Hi, I'm <span className='text-red-600 font-semibold'>Sushant Shah</span></h1>
         <h2 className='text-lg md:text-3xl flex gap-2'>a<span className='flex text-red-600'><AutoType/></span></h2>
@@ -49,7 +49,7 @@ const Banner = () => {
     {/* ----------**************----------- */}
     {/* RIGHT PART  */}
     {/* <div className='w-2/3 h-2/3 flex justify-center items-center md:w-1/2 flex-col'> */}
-    <div className='mx-auto cursor-pointer h-2/6 w-2/6 border-gray-400 flex justify-center items-center rounded-lg overflow-hidden'>
+    <div className='mx-auto cursor-pointer h-1/3 md:w-1/3 border-gray-400 flex justify-center items-center rounded-lg overflow-hidden'>
         <img src={pp2} alt="" className='w-full h-full object-cover'/>
     </div>
     

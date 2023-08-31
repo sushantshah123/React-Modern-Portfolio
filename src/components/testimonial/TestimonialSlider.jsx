@@ -50,7 +50,7 @@ const TestimonialSlider = () => {
           </div>
           {/* INNER  */}
           <div className="flex justify-between items-center">
-          <h2 className="text-xl text-red-500">Amazing Service</h2>
+          <h2 className="text-lg md:text-xl text-red-500">Amazing Service</h2>
           <div className="flex gap-1 text-green-500 text-xs">
             <BiStar/>
             <BiStar/>
